@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!-- Left Side Start -->
     <div class="container flex bg-black">
         <div class="left">
             <div class="home bg-grey rounded m-1 p-1">
@@ -20,12 +21,23 @@
                 </ul>
             </div>
 
+            <!-- Library Portion Start -->
 
             <div class="library bg-grey rounded m-1 p-1">
                 <div class="heading">
                     <img class="invert" src="playlist.svg" alt="">
                     <h2>Your Library</h2>
                 </div>
+
+
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <!-- Left Side Footer -->
+
                 <div class="footer">
                     <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
                     <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
@@ -88,16 +100,23 @@
                         <p>Hits to boost your mood and fill you with happiness!</p>
                     </div>
                     <div class="playbar">
-                        <div class="songinfo">
-                            
-                        </div>
-                        <div class="songsbutton">
-                            <img src="previous_song.svg" alt="Previous">
-                            <img src="play.svg" alt="Play">
-                            <img src="next_song.svg" alt="Next">
-                        </div>
-                        <div class="songtime">
+                        <div class="seekbar">
+                            <div class="circle">
 
+                            </div>
+                        </div>
+                        <div class="abovebar">
+                            <div class="songinfo">
+
+                            </div>
+                            <div class="songsbutton">
+                                <img id="previous" src="previous_song.svg" alt="Previous">
+                                <img id="play" src="play.svg" alt="Play">
+                                <img id="next" src="next_song.svg" alt="Next">
+                            </div>
+                            <div class="songtime">
+
+                            </div>
                         </div>
                     </div>
                 </div>
